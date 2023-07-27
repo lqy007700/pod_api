@@ -7,6 +7,7 @@ import (
 	"fmt"
 	"github.com/zxnlx/common"
 	"github.com/zxnlx/pod/proto/pod"
+	"github.com/zxnlx/pod_api/plugin/form"
 	"github.com/zxnlx/pod_api/proto/pod_api"
 	"strconv"
 )
@@ -29,7 +30,7 @@ func (p *PodApi) FindPodById(ctx context.Context, req *pod_api.Request, resp *po
 		return err
 	}
 
-	podInfo, err := p.PodService.FindPodById(ctx, &pod.PodId{podId})
+	podInfo, err := p.PodService.FindPodById(ctx, &pod.PodId{Id: podId})
 	if err != nil {
 		return err
 	}
@@ -67,7 +68,7 @@ func (p *PodApi) AddPod(ctx context.Context, req *pod_api.Request, resp *pod_api
 	}
 
 	//form类型转化到结构体中
-	from.FromToPodStruct(req.Post, addPodInfo)
+	form.FromToPodStruct(req.Post, addPodInfo)
 
 	response, err := p.PodService.AddPod(ctx, addPodInfo)
 	if err != nil {

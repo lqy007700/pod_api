@@ -22,7 +22,7 @@ import (
 )
 
 var (
-	serviceHost = "192.168.55.2"
+	serviceHost = "172.17.5.126"
 	servicePort = "8081"
 
 	// 注册中心配置
@@ -30,7 +30,7 @@ var (
 	consulPort int64 = 8500
 
 	// 链路
-	tracerHost = "192.168.55.2"
+	tracerHost = serviceHost
 	tracerPort = 6381
 
 	// 熔断

@@ -1,4 +1,5 @@
-FROM ubuntu:latest
-LABEL authors="lqy007700"
+FROM alpine
+ADD pod_api /pod_api
+#ADD filebeat.yml /filebeat.yml
 
-ENTRYPOINT ["top", "-b"]
+ENTRYPOINT [ "/pod_api" ]
