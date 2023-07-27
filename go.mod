@@ -19,6 +19,7 @@ require (
 	github.com/asim/go-micro/plugins/config/source/consul/v3 v3.7.0 // indirect
 	github.com/asim/go-micro/plugins/registry/consul/v3 v3.7.0 // indirect
 	github.com/asim/go-micro/plugins/wrapper/ratelimiter/uber/v3 v3.7.0 // indirect
+	github.com/asim/go-micro/plugins/wrapper/select/roundrobin/v3 v3.7.0 // indirect
 	github.com/asim/go-micro/plugins/wrapper/trace/opentracing/v3 v3.7.0 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/bitly/go-simplejson v0.5.1 // indirect

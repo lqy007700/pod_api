@@ -113,6 +113,8 @@ github.com/asim/go-micro/plugins/registry/memory/v3 v3.0.0-20210630062103-c13bb0
 github.com/asim/go-micro/plugins/registry/memory/v3 v3.0.0-20210630062103-c13bb07171bc/go.mod h1:byk73o19+HiI5rX9PqFhY48v61lV8l+lnXRvRH5jlmE=
 github.com/asim/go-micro/plugins/wrapper/ratelimiter/uber/v3 v3.7.0 h1:EZ+011Q3HRY/xWMPaw7CZdymQOYlA7QfnUvEsjD5+CY=
 github.com/asim/go-micro/plugins/wrapper/ratelimiter/uber/v3 v3.7.0/go.mod h1:j5D2zKqa6SO34bye44nPg+LXhR+HEZxI+eRVrrtlUQU=
+github.com/asim/go-micro/plugins/wrapper/select/roundrobin/v3 v3.7.0 h1:efBfFQUlhDbTl0gHvLT4o7k8Zp2m03iSK+eJ3Cc50lg=
+github.com/asim/go-micro/plugins/wrapper/select/roundrobin/v3 v3.7.0/go.mod h1:kzkHQ3HE3I8YD8ogTfmBnq8Zqmg5Fp6G8b/iBYquQqw=
 github.com/asim/go-micro/plugins/wrapper/trace/opentracing/v3 v3.7.0 h1:8tx6OkTBOwW8njU8r7ZhbIWYSZbLSbc3I43ufT2xG9A=
 github.com/asim/go-micro/plugins/wrapper/trace/opentracing/v3 v3.7.0/go.mod h1:LzWtE7YmzqkSCyYiv3/v+/4O05XpDUzLsxcME9CUqyA=
 github.com/asim/go-micro/v3 v3.5.2-0.20210629124054-4929a7c16ecc/go.mod h1:cNGIIYQcp0qy+taNYmrBdaIHeqMWHV5ZH/FfQzfOyE8=
