@@ -114,7 +114,15 @@ func (p *PodApi) UpdatePod(ctx context.Context, request *pod_api.Request, respon
 	panic("implement me")
 }
 
-func (p *PodApi) Call(ctx context.Context, request *pod_api.Request, response *pod_api.Response) error {
-	//TODO implement me
-	panic("implement me")
+func (p *PodApi) Call(ctx context.Context, req *pod_api.Request, resp *pod_api.Response) error {
+	fmt.Println("接受到 podApi.Call 的请求")
+	allPod, err := p.PodService.FindAllPod(ctx, &pod.FindAll{})
+	if err != nil {
+		common.Error(err)
+		return err
+	}
+	resp.Code = 200
+	b, _ := json.Marshal(allPod)
+	resp.Body = string(b)
+	return nil
 }

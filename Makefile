@@ -1,5 +1,5 @@
 
-all: proto build docker
+all: proto build docker docker-run
 
 .PHONY: proto
 proto:
@@ -12,3 +12,6 @@ build:
 .PHONY: docker
 docker:
 	sudo docker build . -t zxnl/pod_api:latest
+
+docker-run:
+	sudo docker run -p 8082:8082 -v /Users/lqy007700/Data/code/go-application/go-paas/pod_api/micro.log:/micro.log zxnl/pod_api

@@ -1,1 +1,42 @@
 {"level":"fatal","ts":"2023-07-27T10:58:39.264+0800","caller":"pod_api/main.go:73","msg":"listen tcp 0.0.0.0:9092: bind: address already in use"}
+{"level":"info","ts":"2023-07-27T15:29:42.777+0800","caller":"pod_api/main.go:107","msg":"123"}
+{"level":"info","ts":"2023-07-27T15:29:42.777+0800","caller":"pod_api/main.go:114","msg":"456"}
+{"level":"info","ts":"2023-07-28T11:14:34.248+0800","caller":"handler/pod_api_handler.go:20","msg":"pod-api 接收到 findPodById 请求"}
+{"level":"error","ts":"2023-07-28T11:14:34.249+0800","caller":"handler/pod_api_handler.go:22","msg":"pod_id 不存在"}
+{"level":"info","ts":"2023-07-28T11:14:35.813+0800","caller":"handler/pod_api_handler.go:20","msg":"pod-api 接收到 findPodById 请求"}
+{"level":"error","ts":"2023-07-28T11:14:35.814+0800","caller":"handler/pod_api_handler.go:22","msg":"pod_id 不存在"}
+{"level":"info","ts":"2023-07-28T11:15:19.673+0800","caller":"handler/pod_api_handler.go:20","msg":"pod-api 接收到 findPodById 请求"}
+{"level":"error","ts":"2023-07-28T11:15:19.673+0800","caller":"handler/pod_api_handler.go:22","msg":"pod_id 不存在"}
+{"level":"info","ts":"2023-07-28T11:15:21.139+0800","caller":"handler/pod_api_handler.go:20","msg":"pod-api 接收到 findPodById 请求"}
+{"level":"error","ts":"2023-07-28T11:15:21.139+0800","caller":"handler/pod_api_handler.go:22","msg":"pod_id 不存在"}
+{"level":"info","ts":"2023-07-28T11:15:21.839+0800","caller":"handler/pod_api_handler.go:20","msg":"pod-api 接收到 findPodById 请求"}
+{"level":"error","ts":"2023-07-28T11:15:21.839+0800","caller":"handler/pod_api_handler.go:22","msg":"pod_id 不存在"}
+{"level":"info","ts":"2023-07-28T11:15:22.052+0800","caller":"handler/pod_api_handler.go:20","msg":"pod-api 接收到 findPodById 请求"}
+{"level":"error","ts":"2023-07-28T11:15:22.052+0800","caller":"handler/pod_api_handler.go:22","msg":"pod_id 不存在"}
+{"level":"info","ts":"2023-07-28T11:16:06.930+0800","caller":"handler/pod_api_handler.go:20","msg":"pod-api 接收到 findPodById 请求"}
+{"level":"error","ts":"2023-07-28T11:16:06.930+0800","caller":"handler/pod_api_handler.go:22","msg":"pod_id 不存在"}
+{"level":"info","ts":"2023-07-28T11:16:08.490+0800","caller":"handler/pod_api_handler.go:20","msg":"pod-api 接收到 findPodById 请求"}
+{"level":"error","ts":"2023-07-28T11:16:08.490+0800","caller":"handler/pod_api_handler.go:22","msg":"pod_id 不存在"}
+{"level":"info","ts":"2023-07-28T11:16:23.626+0800","caller":"handler/pod_api_handler.go:20","msg":"pod-api 接收到 findPodById 请求"}
+{"level":"error","ts":"2023-07-28T11:16:23.626+0800","caller":"handler/pod_api_handler.go:22","msg":"pod_id 不存在"}
+{"level":"info","ts":"2023-07-28T11:16:24.925+0800","caller":"handler/pod_api_handler.go:20","msg":"pod-api 接收到 findPodById 请求"}
+{"level":"error","ts":"2023-07-28T11:16:24.925+0800","caller":"handler/pod_api_handler.go:22","msg":"pod_id 不存在"}
+{"level":"info","ts":"2023-07-28T11:16:26.258+0800","caller":"handler/pod_api_handler.go:20","msg":"pod-api 接收到 findPodById 请求"}
+{"level":"error","ts":"2023-07-28T11:16:26.258+0800","caller":"handler/pod_api_handler.go:22","msg":"pod_id 不存在"}
+{"level":"info","ts":"2023-07-28T11:16:40.111+0800","caller":"handler/pod_api_handler.go:20","msg":"pod-api 接收到 findPodById 请求"}
+{"level":"info","ts":"2023-07-28T11:16:41.561+0800","caller":"handler/pod_api_handler.go:20","msg":"pod-api 接收到 findPodById 请求"}
+{"level":"info","ts":"2023-07-28T11:16:47.299+0800","caller":"handler/pod_api_handler.go:20","msg":"pod-api 接收到 findPodById 请求"}
+{"level":"info","ts":"2023-07-28T11:16:49.165+0800","caller":"handler/pod_api_handler.go:20","msg":"pod-api 接收到 findPodById 请求"}
+{"level":"info","ts":"2023-07-28T11:16:49.996+0800","caller":"handler/pod_api_handler.go:20","msg":"pod-api 接收到 findPodById 请求"}
+{"level":"info","ts":"2023-07-28T11:16:50.697+0800","caller":"handler/pod_api_handler.go:20","msg":"pod-api 接收到 findPodById 请求"}
+{"level":"info","ts":"2023-07-28T11:16:53.462+0800","caller":"handler/pod_api_handler.go:20","msg":"pod-api 接收到 findPodById 请求"}
+{"level":"info","ts":"2023-07-28T11:17:05.383+0800","caller":"handler/pod_api_handler.go:20","msg":"pod-api 接收到 findPodById 请求"}
+{"level":"info","ts":"2023-07-28T11:17:12.868+0800","caller":"handler/pod_api_handler.go:20","msg":"pod-api 接收到 findPodById 请求"}
+{"level":"info","ts":"2023-07-28T11:17:13.468+0800","caller":"handler/pod_api_handler.go:20","msg":"pod-api 接收到 findPodById 请求"}
+{"level":"info","ts":"2023-07-28T11:17:21.600+0800","caller":"handler/pod_api_handler.go:20","msg":"pod-api 接收到 findPodById 请求"}
+{"level":"info","ts":"2023-07-28T11:17:22.252+0800","caller":"handler/pod_api_handler.go:20","msg":"pod-api 接收到 findPodById 请求"}
+{"level":"info","ts":"2023-07-28T11:17:22.867+0800","caller":"handler/pod_api_handler.go:20","msg":"pod-api 接收到 findPodById 请求"}
+{"level":"info","ts":"2023-07-28T11:18:15.449+0800","caller":"handler/pod_api_handler.go:20","msg":"pod-api 接收到 findPodById 请求"}
+{"level":"info","ts":"2023-07-28T11:18:16.182+0800","caller":"handler/pod_api_handler.go:20","msg":"pod-api 接收到 findPodById 请求"}
+{"level":"info","ts":"2023-07-28T11:18:22.081+0800","caller":"handler/pod_api_handler.go:20","msg":"pod-api 接收到 findPodById 请求"}
+{"level":"error","ts":"2023-07-28T07:50:11.547Z","caller":"handler/pod_api_handler.go:121","msg":"fallback failed with 'Error 1046 (3D000): No database selected'. run error was 'Error 1046 (3D000): No database selected'"}

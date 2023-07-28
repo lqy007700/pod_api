@@ -22,8 +22,8 @@ import (
 )
 
 var (
-	serviceHost = "172.17.5.126"
-	servicePort = "8081"
+	serviceHost = "host.docker.internal"
+	servicePort = "8082"
 
 	// 注册中心配置
 	consulHost       = serviceHost
@@ -52,7 +52,7 @@ func initRegistry() registry.Registry {
 func initTracer() {
 	// 链路追踪
 	// jaeger
-	tracer, i, err := common.NewTracer("base", tracerHost+":"+strconv.Itoa(tracerPort))
+	tracer, i, err := common.NewTracer("go.micro.api.podApi", tracerHost+":"+strconv.Itoa(tracerPort))
 	if err != nil {
 		common.Fatal(err)
 		return
@@ -86,7 +86,7 @@ func main() {
 		micro.Server(server.NewServer(func(options *server.Options) {
 			options.Advertise = serviceHost + ":" + servicePort
 		})),
-		micro.Name("go.micro.api.pod"),
+		micro.Name("go.micro.api.podApi"),
 		micro.Version("latest"),
 		micro.Address(":"+servicePort),
 
@@ -98,7 +98,6 @@ func main() {
 		micro.WrapClient(hystrix2.NewClientHystrixWrapper()),
 		// 限流
 		micro.WrapHandler(ratelimit.NewHandlerWrapper(1000)),
-
 		// 负载均衡
 		micro.WrapClient(roundrobin.NewClientWrapper()),
 	)
